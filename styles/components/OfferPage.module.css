@@ -1,0 +1,62 @@
+.header {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 36em;
+  text-align: center;
+  color: white;
+  text-align: center;
+  padding-bottom: 3em;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.galleryButton {
+  color: #ffffff;
+  width: 10rem;
+  margin-left: 10%;
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.galleryButton:hover {
+  color: #ffffff;
+}
+
+.bookingContainer {
+  width: 350px;
+  border: 2px solid #c1c1c1;
+  border-radius: 2px;
+  padding: 2rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.CalendarSection {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.availableIcon {
+  width: fit-content;
+  padding-right: 0px;
+}
+
+.availableTitle {
+  width: fit-content;
+}
+.comment {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.commentArea {
+  padding: 1em;
+  width: 100%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  height: 464px;
+  min-height: 6rem;
+  height: 8rem;
+  max-height: 12rem;
+}

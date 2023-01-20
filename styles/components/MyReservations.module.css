@@ -1,0 +1,44 @@
+.recapLabel {
+  font-weight: 300;
+  font-size: 0.9em;
+}
+
+.recapBold {
+  font-weight: 600;
+  display: block;
+}
+
+.recapTime {
+  font-weight: 300;
+  display: block;
+}
+.seeOfferLinkWrapper {
+  position: relative;
+  width: 95%;
+  height: 3rem;
+}
+
+.seeOfferLink {
+  width: fit-content;
+  position: absolute;
+  right: 0;
+  height: 2rem;
+  bottom: 0;
+  color: #8340ef;
+  font-size: 0.9rem;
+}
+
+.reservationCanceled {
+  background-color: #dee2e64a;
+}
+
+.cancelWrapper {
+  width: 50%;
+  margin-top: 1em;
+  color: #ff0000c2;
+  font-weight: 600;
+}
+
+.reservationImageWrapper {
+  width: 220px;
+}

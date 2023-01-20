@@ -1,0 +1,96 @@
+.cropTextTitle {
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  height: 2em;
+  font-weight: 700;
+}
+
+.cropTextSummary {
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  height: 4.8em;
+}
+
+.animationEffect:hover {
+  transform: translateY(-3px);
+  transition: all 0.2s ease-in-out;
+}
+
+.cardContainer {
+  position: relative;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 0.5em;
+  overflow: hidden;
+}
+
+.card {
+  border: none;
+  height: 465px;
+}
+
+.favorites {
+  position: absolute;
+  z-index: 99;
+  right: 0;
+  width: 2.5em;
+  height: 2.5em;
+  margin: 0.8em;
+  border-radius: 50%;
+  padding-top: 0.5em;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  cursor: pointer;
+}
+
+.favorites svg {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.removeFromFavorites {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.removeFromFavorites:hover {
+  background-color: #fff !important;
+}
+
+.addToFavorites {
+  background-color: #ababab;
+}
+
+.addToFavorites:hover {
+  background-color: #666666 !important;
+}
+
+.unitPrice {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.unitPriceWrapper {
+  position: absolute;
+  bottom: calc(50% + 1.3em);
+  color: #fff;
+  z-index: 1;
+  right: 20px;
+  font-size: 1.3em;
+  text-shadow: #000 1px 0 10px;
+}
+.city {
+  color: #82358ccc;
+  margin-left: 5px;
+}
+.offerOption {
+  margin-right: 1em;
+  font-size: 0.9em;
+}
+
+.offerOption svg {
+  margin-right: 0.3em;
+  vertical-align: text-bottom;
+}

@@ -1,0 +1,12 @@
+.itemList {
+  margin: 0;
+  list-style-type: none;
+}
+.item {
+  line-height: 2em;
+}
+
+.item:before {
+  content: "-";
+  padding-right: 5px;
+}

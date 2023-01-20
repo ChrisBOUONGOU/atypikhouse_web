@@ -1,0 +1,30 @@
+.searchCalendar {
+  position: absolute;
+  z-index: 10;
+}
+
+.iconColor {
+  color: #82358c;
+}
+
+.inputIcon {
+  background: none;
+  background-color: white;
+}
+
+.formControl {
+  border-left: none;
+  font-size: 0.95rem !important;
+}
+
+@media screen and (min-width: 1200px) {
+  .title {
+    font-size: 67px;
+    margin-top: 3em;
+  }
+  .bgWhite {
+    background-color: white;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+      rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  }
+}

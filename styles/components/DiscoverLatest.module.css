@@ -1,0 +1,16 @@
+.discover {
+    position: relative;
+    background-size: cover;
+    height: 250px;
+    border-radius: 0.5rem;
+    color: white;
+    background-repeat: no-repeat;
+    background-image: url("/images/site/discover.jpg");
+}
+
+.lead {
+    position: absolute;
+    left: 80px;
+    bottom: 10px;
+    text-shadow: #000 1px 0 10px;
+}

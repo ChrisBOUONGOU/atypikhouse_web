@@ -1,0 +1,7 @@
+.alternateOffers:nth-child(odd) {
+  background-color: #f7fafd;
+}
+
+.actionIcon:hover {
+  color: #82358c;
+}

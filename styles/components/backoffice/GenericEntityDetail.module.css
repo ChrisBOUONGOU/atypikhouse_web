@@ -1,0 +1,8 @@
+.entityDetail > dt:nth-child(4n + 3) {
+  background-color: #efefef;
+}
+
+.entityDetail > dt:hover,
+.entityDetail > dd:hover {
+  background-color: lavender;
+}

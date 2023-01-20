@@ -1,0 +1,21 @@
+/* style */
+
+.card {
+  position: relative;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  transition: all 0.2s ease-in-out;
+}
+
+.title {
+  position: absolute;
+  left: 50%;
+  bottom: 1.5rem;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: #000 1px 0 10px;
+  font-weight: 700;
+}
